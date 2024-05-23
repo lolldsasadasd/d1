@@ -20,9 +20,9 @@ Settings = {
     ChargeTime = 3;-- Charge Time In Seconds
     FormType = "g"; -- Form Key
     SpamBeans = true; -- true = will spam beans,false = won't spam beans
-    AutoResetLowKi = true; -- Will reset your character when you are at low ki (Do not use if you are the only player on the TOP)
+    AutoResetLowKi = false; -- Will reset your character when you are at low ki (Do not use if you are the only player on the TOP)
     AutoPunchLowKi = true; -- will auto attack when you are low of ki
-    FasterGod = true; -- ENABLE ONLY IF YOU ARE NOT THE ONLY PLAYER ON THE TOP,when your ki is low will reset your character to transform into god
+    FasterGod = false; -- ENABLE ONLY IF YOU ARE NOT THE ONLY PLAYER ON THE TOP,when your ki is low will reset your character to transform into god
     AutoStats = false;
     StatToUp = "Phys-Damage"; -- Phys-Damage,Ki-Damage,Health-Max,Ki-Max,Phys-Resist,Ki-Resist,Speed
     MinMoneyToStartBuying = 100000; -- if AutoBuy is true,the script will start buying beans or jars at x money
